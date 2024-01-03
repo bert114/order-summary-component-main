@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+$ff: "Red Hat Display", sans-serif;
+$medium: 500;
+$bold: 700;
+$extra-bold: 900;
+
+$ff: "Inter", sans-serif;
+$ff-title: "Lexend Deca", sans-serif;
+
+$clr-primary100: hsl(225, 100%, 94%);
+$clr-primary500: hsl(245, 75%, 52%);
+$clr-neutral100: hsl(225, 100%, 98%);
+$clr-neutral500: hsl(224, 23%, 55%);
+$clr-neutral600: hsl(223, 47%, 23%);
+
+//MIX IN
+@mixin flex($direction, $align: initial) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+}
